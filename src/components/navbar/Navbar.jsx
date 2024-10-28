@@ -13,7 +13,7 @@ const Navbar = () => {
         <div>
           <img src="/logo.png" alt="" />
         </div>
-        <ul className="flex gap-x-3 text-neutral-blueimport React from font-semibold font-inter">
+        <ul className="flex gap-x-3 text-neutral-blue  font-semibold font-inter">
           <li>Home</li>
           <li>Job portal</li>
           <li>Advertise</li>
