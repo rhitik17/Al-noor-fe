@@ -11,7 +11,7 @@ const Navbar = () => {
 
       <section className="flex justify-between items-center px-20 py-4 shadow">
         <div>
-          <img src="/logo.png" alt="" />
+          <img src="/images/logo.png" alt="" />
         </div>
         <ul className="flex gap-x-3 text-neutral-blue  font-semibold font-inter">
           <li>Home</li>
