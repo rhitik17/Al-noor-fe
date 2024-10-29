@@ -29,10 +29,17 @@ const Home = () => {
     <>
       <section className="py-16">
         <div className="px-20  flex flex-col items-center">
-          <HeroSection />
-          <JobSearchSection />
 
-          <div className="w-full py-24 flex items-center justify-between gap-24 ">
+          {/* hero-section with job search */}
+          <div className=" mb-20 w-full relative  ">
+            <HeroSection />
+            <div className="w-full absolute bottom-[-10%] flex items-center justify-center">
+              <JobSearchSection />
+            </div>
+          </div>
+
+{/* Professional card and about card */}
+          <div className="w-full mt-12 py-24 flex items-center justify-between gap-24 ">
             <div className="w-9/12 space-y-20 ">
               {supports.map((support, index) => (
                 <div
@@ -53,6 +60,8 @@ const Home = () => {
               <AboutCard />
             </div>
           </div>
+
+          {/* latest news cards */}
           <LatestNews />
         </div>
         <SucessStories />

@@ -3,7 +3,7 @@ import React from "react";
 // TestimonialCard component for individual success story cards
 const TestimonialCard = ({ image, name, position, testimonial }) => {
   return (
-    <div className="w-96 h-52 p-8 bg-white shadow-lg flex flex-col gap-6">
+    <div className="w-full h-52 p-8 bg-white shadow-lg flex flex-col gap-6">
       <p className="text-gray-700 text-sm leading-snug">{testimonial}</p>
       <div className="flex items-center gap-5">
         <img className="w-14 h-14 rounded-full" src={image} alt={`${name}'s avatar`} />
@@ -16,7 +16,7 @@ const TestimonialCard = ({ image, name, position, testimonial }) => {
   );
 };
 
-// Main SuccessStories component
+
 const SuccessStories = () => {
   const testimonials = [
     {
@@ -40,18 +40,18 @@ const SuccessStories = () => {
   ];
 
   return (
-    <div className="w-full h-[578px] px-20 py-20 bg-green-700 flex justify-center items-center">
-      <div className="flex flex-col gap-12">
-        <div className="flex flex-col gap-4">
-          <div className="flex flex-col gap-3">
-            <h2 className="text-white text-2xl font-bold">Success Stories</h2>
-            <h3 className="text-white text-5xl font-bold">Read the latest news from the world</h3>
+    <div className="w-full h-[578px] px-20 py-20 bg-green-700 flex justify-start items-center font-inter">
+      <div className="w-full flex flex-col gap-12">
+        <div className="w-full flex flex-col gap-4">
+          <div className="flex flex-col gap-3 font-inter ">
+            <h2 className="text-white text-2xl font-semibold">Success Stories</h2>
+            <h3 className="text-white text-5xl font-semibold">Read the latest news from the world</h3>
           </div>
-          <p className="text-white text-base font-normal max-w-lg leading-7">
+          <p className="text-white text-base font-normal max-w-lg ">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
         </div>
-        <div className="relative flex gap-8">
+        <div className="relative w-full flex justify-between gap-8">
           {testimonials.map((testimonial, index) => (
             <TestimonialCard
               key={index}
