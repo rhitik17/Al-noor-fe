@@ -11,7 +11,7 @@ const AboutCard = () => {
         </div>
 
         {/* Description Section */}
-        <p className="w-full text-[#333333] text-lg font-normal font-roboto leading-7">
+        <p className="w-full text-[#333333] text-lg font-normal font-roboto text-justify">
           It is a long established fact that a reader will be<br />
           distracted by the readable content of a page.
         </p>
