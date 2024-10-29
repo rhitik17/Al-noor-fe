@@ -2,10 +2,9 @@ import React from "react";
 
 const LatestNews = () => {
   return (
-    <div className="relative w-full  h-[864px] bg-white mx-auto">
+    <div className="relative w-full h-[864px] bg-white mx-auto">
       {/* Main Content */}
-      <div className="absolute   h-[752px] flex flex-col gap-24">
-        
+      <div className="w-full absolute h-[752px] flex flex-col gap-24">
         {/* Title Section */}
         <div className="flex flex-col gap-2">
           <h2 className="text-primary-red text-2xl font-bold font-inter">Latest News</h2>
@@ -13,23 +12,21 @@ const LatestNews = () => {
             Read the latest news from the world
           </h3>
           <p className="text-neutral-black text-lg font-normal font-inter leading-[1.875rem]">
-            Lorem Ipsum is simply dummy text of the and typesetting industry.
-            Lorem Ipsum has been the industry's standard.
+            Lorem Ipsum is simply dummy text of the and typesetting industry. Lorem Ipsum has been the industry's standard.
           </p>
         </div>
         
         {/* News Cards */}
-        <div className="flex gap-10">
+        <div className="w-full flex justify-between ">
           {[...Array(3)].map((_, index) => (
-            <div key={index} className="w-[397px] h-[484px] relative">
+            <div key={index} className="w-[397px] h-[484px] relative flex-shrink-0">
               {/* Image and Overlay */}
               <div className="relative w-full h-[294.69px] bg-neutral-lightGray">
                 <img
                   src="/images/plane.jpg"
                   alt="News Thumbnail"
-                  className="absolute w-[450px] h-[411.67px]"
+                  className="absolute inset-0 object-cover w-full h-full"
                 />
-                <div className="absolute inset-0 bg-black opacity-10"></div>
               </div>
               
               {/* Card Bottom Section */}

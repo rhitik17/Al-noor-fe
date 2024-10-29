@@ -27,13 +27,13 @@ const Home = () => {
 
   return (
     <>
-      <section className="px-20 pt-16 flex flex-col items-center">
-        <HeroSection />
-        <JobSearchSection />
+      <section className="py-16">
+        <div className="px-20  flex flex-col items-center">
+          <HeroSection />
+          <JobSearchSection />
 
-        <div className="w-full py-24 flex items-center justify-between gap-24 ">
-          <div className="w-9/12 space-y-20 ">
-           
+          <div className="w-full py-24 flex items-center justify-between gap-24 ">
+            <div className="w-9/12 space-y-20 ">
               {supports.map((support, index) => (
                 <div
                   key={index}
@@ -48,14 +48,15 @@ const Home = () => {
                   />
                 </div>
               ))}
-          
+            </div>
+            <div className="">
+              <AboutCard />
+            </div>
           </div>
-          <div className="">
-            <AboutCard />
-          </div>
+          <LatestNews />
         </div>
-        <LatestNews />
         <SucessStories />
+        <div className="h-96"></div>
       </section>
     </>
   );
