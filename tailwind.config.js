@@ -18,6 +18,7 @@ export default {
         sans: ['DM Sans', 'sans-serif'], 
         inter: ['Inter', 'sans-serif'], 
         geologica: ['Geologica', 'sans-serif'], 
+        montserrat: ['Montserrat', 'sans-serif'],
       },
     },
   },

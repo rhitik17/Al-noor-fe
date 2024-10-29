@@ -16,7 +16,7 @@ const colors = {
   },
   neutral: {
     white: "#FFFFFF", // Basic white
-    black: "#000000", // Basic black
+    black: "#444444", // neutral black for texts
     blue: "#6c748f", //basic blue for text
     lightGray: "#97999d", // Light gray for backgrounds
     darkGray: "#2D3748", // Dark gray for text or accents

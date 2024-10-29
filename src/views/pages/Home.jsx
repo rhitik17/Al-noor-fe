@@ -9,7 +9,7 @@ import SucessStories from '../../components/home/SucessStories'
 const Home = () => {
   return (
   <>
-  <section className='px-20'>
+  <section className='px-20 pt-16 flex flex-col items-center'>
 <HeroSection/>
 <JobSearchSection/>
 <ProfessionalSupportCard/>
