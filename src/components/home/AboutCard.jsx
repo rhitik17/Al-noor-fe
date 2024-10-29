@@ -6,8 +6,8 @@ const AboutCard = () => {
       <div className="w-full flex flex-col items-end gap-2">
         {/* Title Section */}
         <div className="w-full flex flex-col items-start gap-3">
-          <div className="text-[#e12b2d] text-2xl font-bold font-inter">About</div>
-          <div className="text-[#158448] text-5xl font-bold font-roboto">Al Noor Overseas</div>
+          <div className="text-primary-red text-2xl font-bold font-inter">About</div>
+          <div className="text-primary-green text-5xl font-bold font-roboto">Al Noor Overseas</div>
         </div>
 
         {/* Description Section */}
@@ -18,7 +18,7 @@ const AboutCard = () => {
       </div>
 
       {/* Button Section */}
-      <div className="w-44 h-12 bg-[#158448] flex items-center justify-center rounded-md">
+      <div className="w-44 h-12 bg-primary-web flex items-center justify-center rounded-full">
         <span className="text-white text-xl font-bold font-roboto">Explore</span>
       </div>
     </div>

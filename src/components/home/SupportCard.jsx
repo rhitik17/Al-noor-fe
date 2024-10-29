@@ -11,12 +11,12 @@ const ProfessionalSupportCard = ({ title, description, index }) => {
       <div className="w-full flex flex-col items-start gap-1">
         {/* Title */}
         <div className="flex w-full justify-center items-center gap-2">
-          <h2 className="flex-grow text-[#333333] text-3xl font-medium font-inter">{title}</h2>
+          <h2 className="flex-grow text-neutral-black text-3xl font-medium font-inter">{title}</h2>
         </div>
 
         {/* Description */}
         <div className="flex w-full justify-center items-center gap-2">
-          <p className="flex-grow text-[#4d4d4d] text-xl font-normal font-inter leading-7">
+          <p className="flex-grow text-neutral-black text-xl font-normal font-inter leading-7">
             {description}
           </p>
         </div>

@@ -1,7 +1,7 @@
 const colors = {
   primary: {
     web: "#4a6870", //website color
-    red: "#e3383a", // Primary action color
+    red: "#e12b2d", // Primary action color
     blue: "#1D4ED8", // Primary brand color
     green: "#218b53", // Primary success color
   },
